@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago con Tarjeta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="flex flex-col w-full max-w-sm mx-auto my-16">
+        <div class="flex flex-col justify-center items-center h-[50%] p-16 bg-gray-200 text-gray-900">
+            <h1 class="text-2xl font-bold mb-8">Pago con Tarjeta</h1>
+            <p class="text-sm">Ingrese su información de tarjeta</p>
+            
+            <!-- Formulario para el envío -->
+            <form id="formulario-validacion" class="w-full">
+                <input 
+                    class="w-full p-2 mt-4 mb-4 border border-gray-300 outline-none" 
+                    id="monto" 
+                    type="number" 
+                    placeholder="Ingrese el monto" 
+                    required
+                >
+                <input 
+                    id="tarjeta" 
+                    class="w-full p-2 my-4 border border-gray-300 outline-none" 
+                    type="number" 
+                    placeholder="N° de tarjeta" 
+                    required
+                >
+                <input 
+                    class="w-full p-2 mb-4 border border-gray-300 outline-none" 
+                    type="password" 
+                    name="pass" 
+                    id="pass" 
+                    placeholder="Ingrese su clave" 
+                    required
+                >
+                <button 
+                    id="enviar" 
+                    class="w-full py-2 px-4 bg-blue-500 hover:bg-blue-600 text-white" 
+                    type="submit"
+                >
+                    Ingresar
+                </button>
+            </form>
+        </div>
+    </div>
+    <script src="app.js" type="module"></script>
+</body>
+</html>

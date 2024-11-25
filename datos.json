@@ -1,0 +1,22 @@
+
+
+ [
+    {
+        "nombre": "Isabella Muñoz",
+        "tarjeta": "445546789",
+        "clave": "Isabela04.",
+        "saldoDisponible": "120"
+    },
+    {
+        "nombre": "Juan Pérez",
+        "tarjeta": "555674985",
+        "clave": "Juan12.",
+        "saldoDisponible": "1200" 
+    },
+    {
+        "nombre": "María Sánchez",
+        "tarjeta": "666789123",
+        "clave": "Maria34.",
+        "saldoDisponible": "2150"
+    }
+]
